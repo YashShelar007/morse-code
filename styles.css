@@ -1,0 +1,10 @@
+#txt-input {
+    width: 80%;
+    height: 5rem;
+}
+
+#output-txt {
+    border: 1px solid black;
+    width: 80%;
+    height: 5rem;
+}
