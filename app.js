@@ -11,12 +11,13 @@ function getTranslationURL(text) {
 function clickHandler() {
     var inputText = textInput.value;
 
-    //server call
-    fetch(getTranslationURL(inputText))
-    .then(response => response.json())
-    .then(json => ouputText.innerHTML = json.contents.translated)
-    .catch(error => {console.log("error occured" + error); 
-    alert("something went wrong. Please try again later");}
+
+        //server call
+        fetch(getTranslationURL(inputText))
+        .then(response => response.json())
+        .then(json => ouputText.innerHTML = json.contents.translated)
+        .catch(error => {console.log("error occured" + error); 
+        alert("something went wrong. Please try again later");}
     );
     
 };

@@ -18,8 +18,8 @@ h1 {
 }
 
 #input-txt {
-    width: 80%;
-    height: 10vh;
+    width: 70%;
+    height: 13vh;
     padding: 0.5rem;
     margin: 2.5rem;
     border: 2px solid #98e39e;
@@ -37,14 +37,13 @@ h1 {
 }
 
 #output-txt {
-    width: 80%;
-    height: 10vh;
+    width: 70%;
+    height: 13vh;
     border: 1px solid black;
     padding: 0.5rem;
     margin: 2.5rem;
     border: 2px solid #98e39e;
     background-color: #1e1f23;
-    color: white;
 }
 
 footer {
