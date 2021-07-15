@@ -1,3 +1,3 @@
 # Morse Code Translater
 
-it translates your text to morse code
+It translates your text to morse code using morse code API
