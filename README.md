@@ -1,3 +1,3 @@
-Banana Translator
+# Morse Code Translater
 
-it translates your text to minnion language
+it translates your text to morse code
